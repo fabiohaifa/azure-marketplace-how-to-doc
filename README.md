@@ -9,6 +9,13 @@ Estes Scripts, qndo executados com sucesso, criarão um ambiente para integraç�
 - Landing Page - Pagina onde o cliente final será direcionado para o "start" de seu ambiente dentro do <b>SaaS</b>
 - APIs e Web-Hooks - End-points para integração
 
+## Landing Page
+
+> Uma página sua que será acessada através do marketplace qndo o cliente adquirir seu SAAS
+> Precisa estar disponivel 24/7
+> Na requisição será enviado um `token` - qndo o acesso é feito via uma aquisição no Marketplace - e este `token` deverá ser usado posteriormente via [SaaS Resolve API](https://learn.microsoft.com/en-us/azure/marketplace/partner-center-portal/pc-saas-fulfillment-subscription-api#resolve-a-purchased-subscription)
+> 
+
 ## ADSs - Architecture Design Sessions
 
 Validação na arquitetura da solução para multi-tennancy como:
